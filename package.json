@@ -1,0 +1,47 @@
+{
+  "name": "freelanceroldnode",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "chai": "^4.1.2",
+    "client-sessions": "^0.8.0",
+    "connect-mongo": "^2.0.1",
+    "connect-mongodb-session": "^2.0.2",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "crypto": "^1.0.1",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "express-fileupload": "^0.4.0",
+    "express-session": "^1.15.6",
+    "jade": "~1.11.0",
+    "kafka-node": "^2.2.3",
+    "md5": "^2.2.1",
+    "mime": "^2.2.0",
+    "mime-db": "^1.33.0",
+    "mime-lookup": "0.0.2",
+    "mime-types": "^2.1.18",
+    "mocha": "^5.0.4",
+    "mongojs": "^2.5.0",
+    "morgan": "~1.9.0",
+    "multer": "^1.3.0",
+    "mysql": "^2.15.0",
+    "nodemailer": "^4.6.4",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "request": "^2.85.0",
+    "serve-favicon": "~2.4.5",
+    "mongodb": "^2.2.35"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^7.0.2",
+    "supertest": "^1.0.1",
+    "connect-mongo": "^2.0.1"
+  }
+}
